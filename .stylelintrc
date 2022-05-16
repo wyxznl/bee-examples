@@ -1,0 +1,15 @@
+{
+    "extends": ["@sfe/eslint-config-sgfe/.stylelintrc"],
+    "rules": {
+        "indentation": 4,
+        "no-duplicate-selectors": null,
+        "block-no-empty": null,
+        "number-leading-zero": null,
+        "no-empty-source": null
+    },
+    "ignoreFiles": [
+        "**/*.jsx",
+        "build/**",
+        "node_modules/**"
+    ]
+}

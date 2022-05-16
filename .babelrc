@@ -1,0 +1,19 @@
+{
+  "sourceType": "module",
+  "parserOpts": {
+
+      "plugins": ["jsx", "typescript", "classProperties"]
+
+},
+  "presets": [
+      ["@babel/preset-env",{"modules": false}],
+      "@babel/preset-react"
+    ],
+  "plugins": [
+      "@babel/plugin-transform-react-jsx",
+      "@babel/plugin-proposal-class-properties"
+    ]
+}
+
+
+

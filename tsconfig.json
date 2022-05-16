@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "outDir": "./build",
+      "sourceMap": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "module": "CommonJS",
+      "target": "ES5",
+      "jsx": "react",
+      "baseUrl": ".",
+      "esModuleInterop": true,
+      "downlevelIteration": true,
+      "lib": [
+        "dom",
+        "es5",
+        "es6",
+        "es7"
+      ],
+      "moduleResolution": "node",
+      "paths": {
+        "@/*": [
+          "src/*"
+        ]
+      }
+    },
+    "include": ["./src/*", "./src/**/*", "./declaration.d.ts"],
+    "exclude": [
+      "node_modules"
+    ]
+  }

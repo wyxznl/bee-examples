@@ -1,0 +1,8 @@
+test/
+scripts/
+build/
+public/
+types/
+.eslintrc.js
+.babelrc
+node_modules
